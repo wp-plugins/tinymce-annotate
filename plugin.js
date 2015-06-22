@@ -16,15 +16,19 @@
                 firsttime = -1;
             }
 
-            if (state) { // Hide                
+            if (state) { // Hide
                 $(body).find(".annotation")
                     .attr({
                         "style": "",
                         "title": "",
                         "data-annotation": ""
                     });
-            } else { // Show                
-                $(body).html(bodyOG);
+            } else { // Show
+                if (!body) {
+                    body = editor.getBody();
+                } else {
+                    $(body).html(bodyOG);
+                }
             }
         }
 
@@ -41,7 +45,7 @@
         editor.addButton('tma_annotate', {
             title: 'Create annotation',
             image: url + '/img/annotation.png',
-            onclick: function() {                
+            onclick: function() {
                 annotation = '';
                 color = '';
                 node = editor.selection.getNode();
@@ -62,7 +66,7 @@
 
                 var selectedText = editor.selection.getContent();
                 var selectedTextLength = selectedText.length;
-                
+
                 if (selectedTextLength > 0) {
                     editor.windowManager.open({
                         title: 'Annotation options',
@@ -111,7 +115,7 @@
             }
         });
 
-        // Hide all annotations     
+        // Hide all annotations
         editor.addButton('tma_annotatehide', {
             title: 'Hide all annotations',
             image: url + '/img/annotation-hide.png',

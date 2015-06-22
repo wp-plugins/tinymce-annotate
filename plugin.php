@@ -24,10 +24,10 @@ function tma_annotate() {
     // Only apply to posts and pages
     if( ! in_array( $typenow, array( 'post', 'page' ) ) )
         return ;
-	
+
 	// Add as an external TinyMCE plugin
     add_filter( 'mce_external_plugins', 'tma_annotate_plugin' );
-	
+
     // Add to first row of the TinyMCE buttons
     add_filter( 'mce_buttons', 'tma_annotate_button' );
 }
