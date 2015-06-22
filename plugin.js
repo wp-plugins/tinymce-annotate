@@ -24,11 +24,7 @@
                         "data-annotation": ""
                     });
             } else { // Show
-                if (!body) {
-                    body = editor.getBody();
-                } else {
                     $(body).html(bodyOG);
-                }
             }
         }
 
