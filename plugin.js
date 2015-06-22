@@ -17,6 +17,7 @@
             }
 
             if (state) { // Hide
+                current = editor.getContent();
                 $(body).find(".annotation")
                     .attr({
                         "style": "",
@@ -24,7 +25,11 @@
                         "data-annotation": ""
                     });
             } else { // Show
-                    $(body).html(bodyOG);
+                if (!body) {
+                    $(body).html('');
+                }else {
+                    $(body).html(current);
+                }
             }
         }
 
