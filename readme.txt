@@ -40,12 +40,15 @@ Make sure you have selected at least a character.
 2. Create annotation
 
 == Changelog ==
-0.2
-Code refactor.
-Added default color for annotation.
-Added tooltip style for substituting alt attribute.
+= 0.2 =
+Release date: July 9, 2015
 
-0.1 
+*Code refactor.
+*Added default color for annotation.
+*Added tooltip style for substituting alt attribute.
+
+= 0.1 =
+Release date: June 21, 2015
 Initial version
 
 == Upgrade Notice ==
