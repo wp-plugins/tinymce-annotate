@@ -41,15 +41,16 @@ Make sure you have selected at least a character.
 
 == Changelog ==
 = 0.2 =
-Release date: July 9, 2015
+Release date: July 9, 2015.
 
-*Code refactor.
-*Added default color for annotation.
-*Added tooltip style for substituting alt attribute.
+Code refactor.
+Added default color for annotation.
+Added tooltip style for substituting alt attribute.
 
 = 0.1 =
-Release date: June 21, 2015
-Initial version
+Release date: June 21, 2015.
+
+Initial version.
 
 == Upgrade Notice ==
 -
