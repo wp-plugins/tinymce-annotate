@@ -15,10 +15,6 @@ Create annotations in your content.
 > #### Follow me
 > [Github](http://github.com/xyulex/) | [Twitter](http://twitter.com/ffreaker) 
 
-> #### Help me
-> Rate TinyMCE Annotate [here!](https://wordpress.org/support/view/plugin-reviews/tinymce-annotate?rate=5#postform "Rate it!")
-> or [buy me a coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C2DCQ4BXXVR3A) :)
-
 You can create annotations in your pages or posts.
 Use cases could be personal annotations or instructions for your review team.
 Once read, you can delete or edit them as well as creating new ones.
@@ -33,6 +29,11 @@ You can delete the current selected annotation.
 You can show or hide current annotations (it doesn't remove the annotations, just hide them).
 
 Annotations are only shown in the TinyMCE editor, that means you will only see them in the admin area.
+
+> #### Help me
+> Rate TinyMCE Annotate [here!](https://wordpress.org/support/view/plugin-reviews/tinymce-annotate?rate=5#postform "Rate it!")
+> or [buy me a coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C2DCQ4BXXVR3A) :)
+
 
 == Installation ==
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
