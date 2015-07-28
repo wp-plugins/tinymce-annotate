@@ -1,19 +1,28 @@
 === TinyMCE Annotate ===
 Contributors: xyulex 
-Tags: tinymce, tiny mce, tiny, advanced, note, notes, annotate, annotation, annotations, plugin, post
+Tags: tinymce, tiny mce, tiny, advanced, note, notes, annotate, annotation, annotations, plugin, post, tinymce advanced, annotator, widget, edit, create annotation, edit annotation.
 Requires at least: 3.0
-Tested up to: 4.2.2
-Stable tag: 0.2
+Tested up to: 4.2.3
+Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C2DCQ4BXXVR3A
 
-Create annotations in your content with this TinyMCE plugin.
+Create annotations in your content.
 
 == Description ==
+
+> #### Follow me
+> [Github](http://github.com/xyulex/) | [Twitter](http://twitter.com/ffreaker) 
+
+> #### Help me
+> Rate TinyMCE Annotate [here!](https://wordpress.org/support/view/plugin-reviews/tinymce-annotate?rate=5#postform "Rate it!")
+> or [buy me a coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C2DCQ4BXXVR3A) :)
+
 You can create annotations in your pages or posts.
 Use cases could be personal annotations or instructions for your review team.
 Once read, you can delete or edit them as well as creating new ones.
+It works perfect with TinyMCE Advanced!
 
 There are three options:
 = Create/edit annotation =
@@ -40,6 +49,11 @@ Make sure you have selected at least a character.
 2. Create annotation
 
 == Changelog ==
+= 0.2.1 =
+Release date: July 28, 2015.
+
+* Bug fix: annotations fixed font size.
+
 = 0.2 =
 Release date: July 9, 2015.
 
